@@ -27,7 +27,7 @@ The technologies that was involved in the construction of the project was
 ### First you have to clone the repository
 #### In your carpet open a terminal an run:
 ## `git init`
-##  `git clone https://github.com/bryannalfaro/Proyecto1Web/`
+##  `git clone https://github.com/bryannalfaro/PortafolioWeb/`
 
 ### For run the project you need to install NodeJS
 You can download it in: https://nodejs.org/es/
