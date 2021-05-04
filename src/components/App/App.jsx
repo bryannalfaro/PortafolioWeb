@@ -1,7 +1,9 @@
 import React from 'react'
 import Typed from 'react-typed'
+import { Link } from 'react-scroll'
 import ParticleC from '../Particle/ParticleCreate'
 import Description from '../Description/DescriptionCard'
+import Projects from '../Projects/Projects'
 import '../../styles/App.css'
 
 const App = () => (
@@ -22,13 +24,16 @@ const App = () => (
         className="typed"
       />
 
-      <svg className="arrows" onClick={() => { console.log('good') }}>
-        <path className="a1" d="M0 0 L30 32 L60 0" />
-        <path className="a2" d="M0 20 L30 52 L60 20" />
-        <path className="a3" d="M0 40 L30 72 L60 40" />
-      </svg>
+      <Link to="section1" spy smooth offset={50} duration={500}>
+        <svg className="arrows">
+          <path className="a1" d="M0 0 L30 32 L60 0" />
+          <path className="a2" d="M0 20 L30 52 L60 20" />
+          <path className="a3" d="M0 40 L30 72 L60 40" />
+        </svg>
+      </Link>
     </div>
     <Description />
+    <Projects />
   </div>
 
 )
