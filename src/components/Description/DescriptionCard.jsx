@@ -1,13 +1,45 @@
 import React from 'react'
 import '../../styles/Description.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faGithub, faFacebook, faInstagram, faLinkedin,
+} from '@fortawesome/free-brands-svg-icons'
 import image from './description.JPG'
 
 const DescriptionCard = () => (
   <div id="section1" className="padred" style={{ position: 'relative' }}>
     <div className="card">
-      <div className="info">WHO AM I</div>
+      <div className="info">
+        <h1>
+          Hello my name is
+          <br />
+          {' '}
+          Bryann Alfaro
+        </h1>
+        <p>
+          I am a computer science student in UVG. I am a very active person.
+          {' '}
+          <br />
+          I like programming and
+          discover new things in the thechnology world.
+          {' '}
+          <br />
+          In my free time I like watch series and
+          share whit my friends.
+        </p>
+
+        <h4>If you want to watch my job you can go to my github</h4>
+        <a href="https://github.com/bryannalfaro" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa git" /></a>
+      </div>
       <div className="description">
         <img src={image} alt="description" className="image" />
+        <h2>Contact me:</h2>
+        <div className="icons">
+          <a href="https://www.facebook.com/bryanneduardo.alfaro" aria-label="fac" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} className="fa face" /></a>
+          <a href="https://www.instagram.com/bryann_alfaro/" aria-label="fac" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} className="fa insta" /></a>
+          <a href="https://www.linkedin.com/in/bryann-alfaro-509940201/" aria-label="fac" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} className="fa link" /></a>
+        </div>
+
       </div>
     </div>
   </div>
