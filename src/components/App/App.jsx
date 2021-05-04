@@ -12,7 +12,15 @@ const App = () => (
   <div className="padre" style={{ position: 'relative', width: '100%', height: '100%' }}>
     <ParticleC />
     <div className="container">
-      <div className="perfil" />
+      <h1>
+        <span>W</span>
+        <span>E</span>
+        <span>L</span>
+        <span>C</span>
+        <span>O</span>
+        <span>M</span>
+        <span>E</span>
+      </h1>
       <Typed
         strings={[
           'I am a <strong>web developer</strong>',
