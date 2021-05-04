@@ -38,7 +38,7 @@ module.exports = {
     templateContent: `
     <html>
       <head>
-
+        <link rel="shortcut icon" href="icons8-sun-64.png" type="image/png">
         <meta charset="UTF-8">
 
       </head>

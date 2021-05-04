@@ -1,5 +1,6 @@
 import React from 'react'
 import Particles from 'react-particles-js'
+import '../../styles/Particle.css'
 
 const ParticleC = () => (
   <div className="app">
