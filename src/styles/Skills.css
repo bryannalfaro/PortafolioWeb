@@ -1,5 +1,77 @@
 .containerSkills{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
     width: 100%;
     height: 100%;
     background:#E0E1DD;
+}
+
+.cardSkills{
+    justify-content:space-around;
+    align-items:center;
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:100%;
+}
+
+.cards{
+    font-family: 'Averia Serif Libre', cursive;
+    position: relative;
+    width: 300px;
+    display: flex;
+    flex-direction:row;
+    height: 500px;
+    align-items:center;
+    align-content: center;
+    justify-content:center;
+    border-radius: 15px;
+    color: white;
+}
+
+.mainc{
+    position: relative;
+    width:300px;
+    height:300px;
+}
+
+
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.9s ease;
+
+}
+
+.faces{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    backface-visibility: hidden;
+    color: white;
+    text-align:center;
+    background-image: url('../components/Skillls/javascript.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #1b263b;
+    border-radius: 15px;
+}
+
+.back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:#415a77;
+    color: white;
+    transform:rotateY(180deg);
+    border-radius: 15px;
+}
+
+.thecard:hover{
+    transform:rotateY(180deg);
 }
