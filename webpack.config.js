@@ -38,7 +38,8 @@ module.exports = {
     templateContent: `
     <html>
       <head>
-        <link rel="shortcut icon" href="icons8-sun-64.png" type="image/png">
+      <title>Bryann Portfolio</title>
+        <link rel="icon" type="image/x-icon"  href="favicon.ico" />
         <meta charset="UTF-8">
 
       </head>
