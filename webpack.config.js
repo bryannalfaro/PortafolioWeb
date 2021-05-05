@@ -36,7 +36,7 @@ module.exports = {
   },
   plugins: [new HtmlWebpackPlugin({
     templateContent: `
-    <html>
+    <!DOCTYPE html>
       <head>
       <title>Bryann Portfolio</title>
         <link rel="icon" type="image/x-icon"  href="favicon.ico" />
