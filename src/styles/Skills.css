@@ -11,6 +11,43 @@
     background:#E0E1DD;
 }
 
+
+
+.t {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+  }
+
+  .t1 {
+    border-width: 0 0 60px 60px;
+    border-color: transparent transparent transparent #1b263b;
+    left: 0;
+    top: 0;
+  }
+
+  .t2 {
+    border-width: 0 60px 60px 0;
+    border-color: transparent #1b263b transparent transparent;
+    right: 0;
+    top: 0;
+  }
+
+  .t3 {
+    border-width: 60px 60px 0 0;
+    border-color: transparent #1b263b transparent transparent;
+    right: 0;
+    bottom: 0;
+  }
+
+  .t4 {
+    border-width: 0 60px 60px 0px;
+    border-color: transparent transparent #1b263b transparent;
+    left: 0;
+    bottom: 0;
+  }
+
 .cardSkills{
     position:relative;
     max-width:300px;
@@ -48,7 +85,7 @@
 .cardSkills:hover .contenido{
     visibility:visible;
     opacity:1;
-    margin-top:-50px;
+    margin-top:-80px;
     transition-delay: 0.3s;
 }
 .tech img{
@@ -162,4 +199,5 @@
 
 .skilltitle{
     font-family: 'Averia Serif Libre', cursive;
+    z-index: 1;
 }

@@ -9,6 +9,10 @@ import 'swiper/components/pagination/pagination.min.css'
 import SwiperCore, {
   EffectCoverflow, Pagination,
 } from 'swiper/core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faGithub,
+} from '@fortawesome/free-brands-svg-icons'
 import '../../styles/Projects.css'
 import calculadora from './calculadora.JPG'
 import chat from './chat.JPG'
@@ -20,6 +24,10 @@ SwiperCore.use([EffectCoverflow, Pagination])
 const Projects = () => (
   <div id="section2" className="containerProjects" style={{ position: 'relative' }}>
     <h1 className="titleProject">MY PROJECTS</h1>
+    <div className="t t1" />
+    <div className="t t2" />
+    <div className="t t3" />
+    <div className="t t4" />
     <Swiper
       effect="coverflow"
       grabCursor={true}
@@ -35,21 +43,25 @@ const Projects = () => (
       pagination={true}
       className="mySwiper"
     >
-      <SwiperSlide>
+      <SwiperSlide className="sw1">
         <img src={calculadora} />
         <p className="descriptP">CALCULATOR WITH BASIC FUNCTIONS</p>
+        <a href="https://github.com/bryannalfaro/Lab7Calculadora" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="sw1">
         <img src={chat} />
         <p className="descriptP">CHAT APPLICATION</p>
+        <a href="https://github.com/bryannalfaro/ChatWeb" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="sw1">
         <img src={musicorum} />
         <p className="descriptP">STREAM APP FOR DB CLASS</p>
+        <a href="https://github.com/bryannalfaro/ProyectoBases" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="sw1">
         <img src={maze} />
         <p className="descriptP">MAZE WITH CUSTOMIZE WIDTH AND HEIGHT</p>
+        <a href="https://github.com/bryannalfaro/MazeLab6" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
       </SwiperSlide>
     </Swiper>
     <Link to="section3" spy smooth duration={600}>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani&display=swap');
 
 .containerProjects{
     display:flex;
@@ -10,6 +11,42 @@
     align-content: center;
 }
 
+
+.t {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+}
+
+.t1 {
+  border-width: 0 0 60px 60px;
+  border-color: transparent transparent transparent #1b263b;
+  left: 0;
+  top: 0;
+}
+
+.t2 {
+  border-width: 0 60px 60px 0;
+  border-color: transparent #1b263b transparent transparent;
+  right: 0;
+  top: 0;
+}
+
+.t3 {
+  border-width: 60px 60px 0 0;
+  border-color: transparent #1b263b transparent transparent;
+  right: 0;
+  bottom: 0;
+}
+
+.t4 {
+  border-width: 0 60px 60px 0px;
+  border-color: transparent transparent #1b263b transparent;
+  left: 0;
+  bottom: 0;
+}
+
 .swiper-container {
     width: 100%;
   }
@@ -18,10 +55,11 @@
     background-position: center;
     background-size: cover;
     width: 400px;
-    height: 400px;
+    height: 420px;
   }
 
   .swiper-slide img {
+    border-radius:15px 15px 0 0;
     display: block;
     width: 100%;
     height: 80%;
@@ -37,5 +75,21 @@
   .descriptP{
       color: white;
       text-align: center;
-      font-family: 'Averia Serif Libre', cursive;
+      font-family: 'Biryani', sans-serif;
   }
+
+  .sw1{
+    border-radius: 15px;
+    background-color:#1b263b;
+  }
+
+  .fa2{
+    margin: -8px;
+    font-size:30px;
+    line-height:30px;
+    transition: .7s;
+}
+
+.fa2:hover{
+    transform: translate(0, -5px);
+}

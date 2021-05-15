@@ -8,6 +8,10 @@ import REACT from './react.png'
 const Skills = () => (
   <div id="section3" className="containerSkills" style={{ position: 'relative' }}>
     <h1 className="skilltitle">MY SKILLS</h1>
+    <div className="t t1" />
+    <div className="t t2" />
+    <div className="t t3" />
+    <div className="t t4" />
     <div className="cards">
       <div className="cardSkills">
         <div className="tech">

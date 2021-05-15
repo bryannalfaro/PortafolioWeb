@@ -9,6 +9,10 @@ import image from './description.JPG'
 
 const DescriptionCard = () => (
   <div id="section1" className="padred" style={{ position: 'relative' }}>
+    <div className="t t1" />
+    <div className="t t2" />
+    <div className="t t3" />
+    <div className="t t4" />
     <div className="card">
       <div className="info">
         <h1>
@@ -22,11 +26,11 @@ const DescriptionCard = () => (
           {' '}
           <br />
           I like programming and
-          discover new things in the thechnology world.
+          discover new things in the technology world.
           {' '}
           <br />
           In my free time I like watch series and
-          share whit my friends.
+          share with my friends.
         </p>
 
         <h4>If you want to watch my job you can go to my github</h4>
