@@ -18,7 +18,6 @@ The technologies that was involved in the construction of the project was
 |:white_check_mark:| React | Library of JavaScript based on components for build better user interfaces | https://es.reactjs.org/docs/getting-started.html
 | :white_check_mark: | Webpack| It is a module bundler for JavaScript applications | https://webpack.js.org/
 |:white_check_mark: | Babel| It is a transcompiler for JavaScript code | https://babeljs.io/
-|:white_check_mark: | PostCSS| Tool for transform CSS with JavaScript | https://postcss.org/
 |:white_check_mark: | ESLint| Tool for find and fix problems in JavaScript code | https://eslint.org/
 |:white_check_mark: | npm| It is the package manager for the Node JS platform  | https://www.npmjs.com/
 |:white_check_mark: | Node JS|  It is a JavaScript runtime environment for run JS programs | https://nodejs.org/es/
