@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faGithub, faFacebook, faInstagram, faLinkedin,
 } from '@fortawesome/free-brands-svg-icons'
-import image from './description.jpg'
+import image from './description.JPG'
 
 const DescriptionCard = () => {
   useEffect(() => {
