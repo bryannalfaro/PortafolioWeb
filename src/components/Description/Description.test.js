@@ -1,9 +1,9 @@
 import React from 'react'
 import { render } from '@testing-library/react/'
-import App from './App'
+import Description from './DescriptionCard'
 
 describe('Testing rendering', () => {
-  test('App renders', () => {
-    render(<App />)
+  test('Description view renders', () => {
+    render(<Description />)
   })
 })

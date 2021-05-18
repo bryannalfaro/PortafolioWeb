@@ -1,9 +1,9 @@
 import React from 'react'
 import { render } from '@testing-library/react/'
-import App from './App'
+import Projects from './Projects'
 
 describe('Testing rendering', () => {
-  test('App renders', () => {
-    render(<App />)
+  test('Projects view renders', () => {
+    render(<Projects />)
   })
 })

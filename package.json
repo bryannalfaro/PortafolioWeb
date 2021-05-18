@@ -19,6 +19,11 @@
   "bugs": {
     "url": "https://github.com/bryannalfaro/PortafolioWeb/issues"
   },
+  "jest": {
+    "moduleNameMapper": {
+      ".+\\.(css|styl|less|sass|scss|png|JPG|jpg|ttf|woff|woff2)$": "identity-obj-proxy"
+    }
+  },
   "homepage": "https://bryannalfaro.github.io/PortafolioWeb/",
   "dependencies": {
     "@babel/core": "^7.14.0",
@@ -58,6 +63,8 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest-transform-stub": "^2.0.0"
   }
 }
