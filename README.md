@@ -1,6 +1,6 @@
 # Proyecto 3
 ### Project for Web class. Make personal portfolio
-
+## Animations get from Online Tutorial Youtube Channel.
 
 Table of contents |
 ------------------|
@@ -50,5 +50,5 @@ You can download it in: https://nodejs.org/es/
 |http://github.com/bryannalfaro|
 
 - ## License
-&copy; Bryann Alfaro  
+&copy; Bryann Alfaro
 Licensed under the [MIT License](LICENSE)

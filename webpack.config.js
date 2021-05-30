@@ -27,6 +27,7 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js', '.jsx'],
   },
+  stats: 'none',
   devServer: {
     contentBase: './dist',
   },
