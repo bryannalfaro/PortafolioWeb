@@ -36,11 +36,11 @@ module.exports = {
     filename: 'bundle.js',
   },
   plugins: [new HtmlWebpackPlugin({
+    favicon: './src/icons8-website-64.png',
     templateContent: `
     <html>
       <head>
       <title>Bryann Portfolio</title>
-        <link rel="icon" type="image/x-icon"  href="favicon.ico" />
         <meta charset="UTF-8">
 
       </head>
