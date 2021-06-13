@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import '../../styles/Skills.css'
+import { Link } from 'react-scroll'
 import JS from './javascript.png'
 import HTML from './html.png'
 import CSS from './css.png'
@@ -61,6 +62,13 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      <Link to="padre" spy smooth duration={600}>
+        <svg className="arrowsec dir">
+          <path className="a1" d="M0 0 L30 32 L60 0" />
+          <path className="a2" d="M0 20 L30 52 L60 20" />
+          <path className="a3" d="M0 40 L30 72 L60 40" />
+        </svg>
+      </Link>
 
     </div>
   )
