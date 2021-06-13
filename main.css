@@ -488,6 +488,10 @@ a{
     font-family: 'Averia Serif Libre', cursive;
     z-index: 1;
 }
+
+.dir{
+    transform:rotate(180deg);
+}
 .title{
     color: white !important;
     text-align: center;
