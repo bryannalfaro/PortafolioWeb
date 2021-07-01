@@ -93,3 +93,9 @@
 .fa2:hover{
     transform: translate(0, -5px);
 }
+
+.icon-div{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}

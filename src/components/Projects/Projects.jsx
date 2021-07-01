@@ -11,6 +11,7 @@ import 'swiper/components/pagination/pagination.min.css'
 import SwiperCore, {
   EffectCoverflow, Pagination,
 } from 'swiper/core'
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faGithub,
@@ -20,6 +21,7 @@ import calculadora from './calculadora.JPG'
 import chat from './chat.JPG'
 import musicorum from './musicorum.JPG'
 import maze from './maze.JPG'
+import weather from './weather.png'
 
 SwiperCore.use([EffectCoverflow, Pagination])
 
@@ -55,22 +57,53 @@ const Projects = () => {
         <SwiperSlide className="sw1">
           <img src={calculadora} />
           <p className="descriptP">CALCULATOR WITH BASIC FUNCTIONS</p>
-          <a href="https://github.com/bryannalfaro/Lab7Calculadora" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
+          <div className="icon-div">
+            <a href="https://calcubeah.netlify.app/" aria-label="fac" target="_blank" rel="noreferrer" className="git">
+              <FontAwesomeIcon icon={faEye} className="fa2 git" />
+            </a>
+            <a href="https://github.com/bryannalfaro/Lab7Calculadora" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
+
+          </div>
         </SwiperSlide>
         <SwiperSlide className="sw1">
           <img src={chat} />
           <p className="descriptP">CHAT APPLICATION</p>
-          <a href="https://github.com/bryannalfaro/ChatWeb" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
+          <div className="icon-div">
+            <a href="https://dazzling-poincare-88e237.netlify.app/" aria-label="fac" target="_blank" rel="noreferrer" className="git">
+              <FontAwesomeIcon icon={faEye} className="fa2 git" />
+            </a>
+            <a href="https://github.com/bryannalfaro/ChatWeb" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
+          </div>
+
         </SwiperSlide>
         <SwiperSlide className="sw1">
           <img src={musicorum} />
           <p className="descriptP">STREAM APP FOR DB CLASS</p>
-          <a href="https://github.com/bryannalfaro/ProyectoBases" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
+          <div className="icon-div">
+            <a href="https://elastic-joliot-157408.netlify.app/" aria-label="fac" target="_blank" rel="noreferrer" className="git">
+              <FontAwesomeIcon icon={faEye} className="fa2 git" />
+            </a>
+            <a href="https://github.com/bryannalfaro/ProyectoBases" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
+          </div>
+
         </SwiperSlide>
         <SwiperSlide className="sw1">
           <img src={maze} />
           <p className="descriptP">MAZE WITH CUSTOMIZE WIDTH AND HEIGHT</p>
           <a href="https://github.com/bryannalfaro/MazeLab6" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
+        </SwiperSlide>
+        <SwiperSlide className="sw1">
+          <img src={weather} />
+          <p className="descriptP">WEATHER APP USING API</p>
+          <div className="icon-div">
+            <a href="https://sad-goldberg-a1f169.netlify.app/" aria-label="fac" target="_blank" rel="noreferrer" className="git">
+              <FontAwesomeIcon icon={faEye} className="fa2 git" />
+            </a>
+            <a href="https://github.com/bryannalfaro/WeatherApp" aria-label="fac" target="_blank" rel="noreferrer" className="git">
+              <FontAwesomeIcon icon={faGithub} className="fa2 git" />
+            </a>
+          </div>
+
         </SwiperSlide>
       </Swiper>
       <Link to="section3" spy smooth duration={600}>
