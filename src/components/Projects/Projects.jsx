@@ -90,7 +90,13 @@ const Projects = () => {
         <SwiperSlide className="sw1">
           <img src={maze} />
           <p className="descriptP">MAZE WITH CUSTOMIZE WIDTH AND HEIGHT</p>
-          <a href="https://github.com/bryannalfaro/MazeLab6" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
+          <div className="icon-div">
+            <a href="https://keen-bhaskara-311e74.netlify.app/" aria-label="fac" target="_blank" rel="noreferrer" className="git">
+              <FontAwesomeIcon icon={faEye} className="fa2 git" />
+            </a>
+            <a href="https://github.com/bryannalfaro/MazeLab6" aria-label="fac" target="_blank" rel="noreferrer" className="git"><FontAwesomeIcon icon={faGithub} className="fa2 git" /></a>
+          </div>
+
         </SwiperSlide>
         <SwiperSlide className="sw1">
           <img src={weather} />
